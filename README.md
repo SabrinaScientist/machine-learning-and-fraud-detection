@@ -28,7 +28,6 @@ Foram comparados Regressão Logística, KNN, SVM, Árvore de Decisão, Random Fo
 ├── Engenharia_de_Atributos.ipynb
 ├── Previsao_Fraude_2026.ipynb
 ├── previsoes_fraude_janeiro_2026.csv
-├── random_forest_final_limiar_053.joblib
 └── README.md
 ```
 
