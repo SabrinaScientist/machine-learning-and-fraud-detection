@@ -20,7 +20,9 @@ O pré-processamento utiliza Pipeline e ColumnTransformer do scikit-learn, com i
 Foram comparados Regressão Logística, KNN, SVM, Árvore de Decisão, Random Forest e Gradient Boosting, com ajuste de hiperparâmetros via GridSearchCV e validação cruzada temporal com TimeSeriesSplit (4 divisões).
 *A Random Forest foi selecionada com prioridade para o recall da classe fraude.*
 
-# Estrutura do repositório
+## Estrutura do repositório
+
+```text
 .
 ├── EDA.ipynb
 ├── Engenharia_de_Atributos.ipynb
@@ -28,6 +30,7 @@ Foram comparados Regressão Logística, KNN, SVM, Árvore de Decisão, Random Fo
 ├── previsoes_fraude_janeiro_2026.csv
 ├── random_forest_final_limiar_053.joblib
 └── README.md
+```
 
 # Como executar
 1. Obtenha os arquivos de entrada transacoes_historico_2025.csv e transacoes_jan2026.csv.
